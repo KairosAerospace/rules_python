@@ -61,8 +61,8 @@ _RULE_DEPS = [
     ),
     (
         "pypi__pip",
-        "https://files.pythonhosted.org/packages/50/c2/e06851e8cc28dcad7c155f4753da8833ac06a5c704c109313b8d5a62968a/pip-23.2.1-py3-none-any.whl",
-        "7ccf472345f20d35bdc9d1841ff5f313260c2c33fe417f48c30ac46cccabf5be",
+        "https://files.pythonhosted.org/packages/54/0c/d01aa759fdc501a58f431eb594a17495f15b88da142ce14b5845662c13f3/pip-20.0.2-py2.py3-none-any.whl",
+        "4ae14a42d8adba3205ebeb38aa68cfc0b6c346e1ae2e699a0b3bad4da19cef5c",
     ),
     (
         "pypi__pip_tools",
@@ -76,8 +76,8 @@ _RULE_DEPS = [
     ),
     (
         "pypi__setuptools",
-        "https://files.pythonhosted.org/packages/4f/ab/0bcfebdfc3bfa8554b2b2c97a555569c4c1ebc74ea288741ea8326c51906/setuptools-68.1.2-py3-none-any.whl",
-        "3d8083eed2d13afc9426f227b24fd1659489ec107c0e86cec2ffdde5c92e790b",
+        "https://files.pythonhosted.org/packages/0e/8e/4d9a9009afeae48ec1301713d96b9ae901aa6e157637ddf37e844c1bf4ee/setuptools-45.3.0-py3-none-any.whl",
+        "c12bf030a5f5cad222d98ee0a0c10d76b4bcaf45e23501e5480c4b6f9c3f643f",
     ),
     (
         "pypi__tomli",
