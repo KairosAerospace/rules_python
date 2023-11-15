@@ -373,7 +373,7 @@ TOOL_VERSIONS = {
 
 # buildifier: disable=unsorted-dict-items
 MINOR_MAPPING = {
-    "3.8": "3.8.18",
+    "3.8": "3.8.16",
     "3.9": "3.9.18",
     "3.10": "3.10.13",
     "3.11": "3.11.6",
