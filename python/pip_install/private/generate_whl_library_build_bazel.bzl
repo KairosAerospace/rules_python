@@ -140,6 +140,9 @@ def generate_whl_library_build_bazel(
         if annotation.additive_build_content:
             additional_content.append(annotation.additive_build_content)
 
+        if len(annotation.excluded_deps) > 0:
+            dependencies = [d for d in dependencies if d not in annotation.excluded_deps]
+
     _data_exclude = [
         "**/* *",
         "**/*.py",

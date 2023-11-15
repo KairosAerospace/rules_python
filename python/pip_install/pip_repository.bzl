@@ -756,7 +756,8 @@ def package_annotation(
         copy_executables = {},
         data = [],
         data_exclude_glob = [],
-        srcs_exclude_glob = []):
+        srcs_exclude_glob = [],
+        excluded_deps = []):
     """Annotations to apply to the BUILD file content from package generated from a `pip_repository` rule.
 
     [cf]: https://github.com/bazelbuild/bazel-skylib/blob/main/docs/copy_file_doc.md
@@ -782,6 +783,7 @@ def package_annotation(
         data = data,
         data_exclude_glob = data_exclude_glob,
         srcs_exclude_glob = srcs_exclude_glob,
+        excluded_deps = excluded_deps,
     ))
 
 # pip_repository implementation
